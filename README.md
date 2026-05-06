@@ -1,12 +1,13 @@
-# 🧠 Portfólio LabTecInfo
+# 🧠 Portfólio 
 
-Bem-vindo ao meu portfólio! Sou Roberto Pereira de Morais, estudante de Inteligência Artificial pela UNIFAEL.
+Bem-vindo ao meu portfólio! Sou Roberto Pereira de Morais, estudante de Engenhraia de Software pela Wyden.
 
 Este espaço reúne meus projetos práticos em:
 - 🗂️ Automação com AppSheet
 - 🤖 Chatbots com IA
 - 📊 Integrações com Google Sheets e Apps Script
 - 🧾 Tecnologias no setor público
+- 💽 Carioca OS e Tucano Browser
 
 ---
 
@@ -32,7 +33,7 @@ Este espaço reúne meus projetos práticos em:
 
 ### 🧾 Sobre Mim
 
-Estudante de Inteligência Artificial na UNIFAEL com foco em automações no setor público, aplicando IA de forma acessível e prática.
+Estudante de Engenharia de Software na Wyden com foco em automações no setor público, aplicando IA de forma acessível e prática.
 
 🌱 Formado em Gestão Ambiental + apaixonado por soluções digitais com impacto  
 🤖 Projetos com AppSheet, Google Sheets, Chatbots e Google Apps Script.
