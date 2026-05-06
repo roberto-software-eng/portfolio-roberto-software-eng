@@ -38,8 +38,8 @@ Estudante de Engenharia de Software na Wyden com foco em automações no setor p
 🌱 Formado em Gestão Ambiental + apaixonado por soluções digitais com impacto  
 🤖 Projetos com AppSheet, Google Sheets, Chatbots e Google Apps Script.
 
-📫 Contato: labtecinfo.br@gmail.com  
-🌐 GitHub: [github.com/labtecinfo](https://github.com/labtecinfo)
+📫 Contato: roberto.software.eng@gmail.com  
+🌐 GitHub: [https://github.com/roberto-software-eng]
 
 ---
 
