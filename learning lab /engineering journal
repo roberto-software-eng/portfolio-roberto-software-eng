@@ -1,0 +1,31 @@
+🧪 Laboratório de estudos e virtualização
+
+07/05/2026 11:55
+• Configuração de ambientes virtualizados com VirtualBox
+• Importação e gerenciamento de máquinas virtuais (.OVA)
+• Troubleshooting de instalação e dependências no Windows
+• Configuração básica de sistemas Linux
+• Estudos em virtualização, infraestrutura e ambientes de desenvolvimento
+
+# Importação de OVA no VirtualBox
+
+## Contexto
+Tentativa de configurar ambiente Linux virtualizado
+em máquina Windows corporativa.
+
+## Problema encontrado
+Erro durante instalação do VirtualBox.
+
+## Diagnóstico
+Dependência ausente:
+Microsoft Visual C++ Redistributable 2015-2022.
+
+## Solução aplicada
+- Instalação do VC++ Redistributable
+- Reinicialização do sistema
+- Nova tentativa de importação do .OVA
+
+## Aprendizados
+- Leitura de logs MSI
+- Dependências de runtime
+- Conceitos básicos de virtualização
