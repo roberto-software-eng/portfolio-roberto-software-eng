@@ -29,3 +29,12 @@ Microsoft Visual C++ Redistributable 2015-2022.
 - Leitura de logs MSI
 - Dependências de runtime
 - Conceitos básicos de virtualização
+07/05/2026 15:39
+## Problema encontrado
+BrokenSharedFolder no VirtualBox após importação de .OVA
+
+## Causa
+Pasta compartilhada configurada no ambiente original não existia no host atual.
+
+## Solução
+Remoção da Shared Folder nas configurações da VM.
