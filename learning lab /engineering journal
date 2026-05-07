@@ -38,3 +38,84 @@ Pasta compartilhada configurada no ambiente original não existia no host atual.
 
 ## Solução
 Remoção da Shared Folder nas configurações da VM.
+
+07/05/2026 18:10
+# Instalação e Troubleshooting do Epiphany (GNOME Web)
+
+## Contexto
+
+Após dificuldades para instalar o Firefox em ambiente virtualizado Linux (Carioca OS), foi realizada a instalação do navegador Epiphany/GNOME Web como alternativa mais leve e integrada ao sistema.
+
+## Ambiente
+
+* VirtualBox
+* Linux baseado em Arch
+* Rede corporativa
+* VM importada via .OVA
+
+## Problemas encontrados
+
+* Interface de rede DOWN
+* NetworkManager desativado
+* Falhas de DNS
+* Timeout em mirrors do pacman
+* Restrições de rede corporativa
+
+## Diagnóstico realizado
+
+Foram utilizados comandos para:
+
+* verificar interfaces (`ip addr`)
+* validar conectividade (`ping`)
+* testar DNS
+* iniciar serviços (`systemctl`)
+* analisar estado da rede (`nmcli`)
+
+## Soluções aplicadas
+
+* Ativação manual da interface `enp0s3`
+* Inicialização do `NetworkManager`
+* Configuração NAT no VirtualBox
+* Ajuste de DNS
+* Troca de mirrors do pacman
+
+## Instalação do navegador
+
+Comando utilizado:
+
+```bash id="u3g9wa"
+sudo pacman -S epiphany
+```
+
+## Resultado
+
+O navegador iniciou corretamente, apresentando apenas warnings relacionados a:
+
+* aceleração gráfica 3D
+* bibliotecas opcionais
+* serviços de keyring
+
+Nenhum dos warnings impediu a execução da aplicação.
+
+## Conceitos estudados
+
+* Virtualização
+* NAT
+* Interfaces Linux
+* DNS
+* DHCP
+* NetworkManager
+* systemd
+* Gerenciamento de pacotes
+* Troubleshooting em camadas
+
+## Aprendizado principal
+
+Problemas de aplicação muitas vezes têm origem em:
+
+* infraestrutura
+* rede
+* serviços do sistema
+* gerenciamento de dependências
+
+A análise em camadas foi essencial para identificar a causa real do problema.
